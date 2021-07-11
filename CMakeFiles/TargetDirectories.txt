@@ -1,0 +1,3 @@
+/home/francis/Downloads/Hotel-Management-System-in-C--main/CMakeFiles/rebuild_cache.dir
+/home/francis/Downloads/Hotel-Management-System-in-C--main/CMakeFiles/edit_cache.dir
+/home/francis/Downloads/Hotel-Management-System-in-C--main/CMakeFiles/Hotel_Management_System_in_C_.dir
