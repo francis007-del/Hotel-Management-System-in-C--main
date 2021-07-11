@@ -8,7 +8,7 @@ using namespace std;
 int main()
 {
 	Hotel KANA;		//CREATING OBJECT OF CLASS HOTEL
-	Admin Naveed("FranciS",123456); //SETTING ADMIN
+	Admin HOTEL("KANA",123456); //SETTING ADMIN
 	char ch;
     bool flag=true;
     cout<<"\t\t\t\t"<<"*************************************"<<endl;
@@ -34,8 +34,8 @@ int main()
             cout<<"Enter Password : "; // ADMIN PASSWORD
             int password;
             cin>>password;
-            if(password==Naveed.password){
-				cout<<"Hello "<<Naveed.getName()<<endl;  
+            if(password==HOTEL.password){
+				cout<<"Hello "<<HOTEL.getName()<<endl;  
             cout<<"\t\t\t\t1.Add database of rooms in the hotel:"<<endl; // ADDING DATABASE OF ROOMS
             cout<<"\t\t\t\t2.Guest List"<<endl; //DISPLAYING LIST OF GUESTS
             cout<<"\t\t\t\t3.Search Room"<<endl; //SEARCHING ROOMS
